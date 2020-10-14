@@ -12,6 +12,13 @@ depends=(icu openssl qt5-base qt5-webkit)
 url='https://support.f5.com/csp/article/K32311645#link_04_05'
 license=('commercial')
 
+sha256sums=('5ce1e05a353e5a95c2fa5f7a4411c62c58a54dbd867630c5164aa46c5525e2a6'	
+            '5ce1e05a353e5a95c2fa5f7a4411c62c58a54dbd867630c5164aa46c5525e2a6')	
+sha256sums_x86_64=('5ce1e05a353e5a95c2fa5f7a4411c62c58a54dbd867630c5164aa46c5525e2a6')	
+md5sums=('475813581c09861c69e5e7376909e3bb'	
+         '130ef2376ad4581cc91a11814c00d948')	
+md5sums_x86_64=('475813581c09861c69e5e7376909e3bb')
+
 package() {
     (
     cd "${srcdir}/opt/f5/vpn"
